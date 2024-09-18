@@ -15,6 +15,11 @@
 		B3A6713A2C9B2C060024B802 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B3A671392C9B2C060024B802 /* MainViewController.xib */; };
 		B3A671402C9B338F0024B802 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3A6713F2C9B338F0024B802 /* UIView+Extension.swift */; };
 		B3A671422C9B344C0024B802 /* roboto in Resources */ = {isa = PBXBuildFile; fileRef = B3A671412C9B344C0024B802 /* roboto */; };
+		B3A671452C9B387E0024B802 /* MainCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3A671432C9B387E0024B802 /* MainCollectionViewCell.swift */; };
+		B3A671462C9B387E0024B802 /* MainCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B3A671442C9B387E0024B802 /* MainCollectionViewCell.xib */; };
+		B3A671482C9B3B090024B802 /* UICollectionViewCell+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3A671472C9B3B090024B802 /* UICollectionViewCell+Extension.swift */; };
+		B3A6714A2C9B48630024B802 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3A671492C9B48630024B802 /* MainViewModel.swift */; };
+		B3A6714C2C9B50310024B802 /* MainCollectionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3A6714B2C9B50310024B802 /* MainCollectionViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +33,11 @@
 		B3A671392C9B2C060024B802 /* MainViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
 		B3A6713F2C9B338F0024B802 /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
 		B3A671412C9B344C0024B802 /* roboto */ = {isa = PBXFileReference; lastKnownFileType = folder; path = roboto; sourceTree = "<group>"; };
+		B3A671432C9B387E0024B802 /* MainCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCollectionViewCell.swift; sourceTree = "<group>"; };
+		B3A671442C9B387E0024B802 /* MainCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainCollectionViewCell.xib; sourceTree = "<group>"; };
+		B3A671472C9B3B090024B802 /* UICollectionViewCell+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UICollectionViewCell+Extension.swift"; sourceTree = "<group>"; };
+		B3A671492C9B48630024B802 /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
+		B3A6714B2C9B50310024B802 /* MainCollectionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCollectionViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +101,7 @@
 			isa = PBXGroup;
 			children = (
 				B3A671372C9B2BEF0024B802 /* MainViewController.swift */,
+				B3A671492C9B48630024B802 /* MainViewModel.swift */,
 				B3A671392C9B2C060024B802 /* MainViewController.xib */,
 			);
 			path = MainViewController;
@@ -117,6 +128,9 @@
 		B3A6713D2C9B32160024B802 /* MainCollectionViewCell */ = {
 			isa = PBXGroup;
 			children = (
+				B3A671432C9B387E0024B802 /* MainCollectionViewCell.swift */,
+				B3A671442C9B387E0024B802 /* MainCollectionViewCell.xib */,
+				B3A6714B2C9B50310024B802 /* MainCollectionViewModel.swift */,
 			);
 			path = MainCollectionViewCell;
 			sourceTree = "<group>";
@@ -125,6 +139,7 @@
 			isa = PBXGroup;
 			children = (
 				B3A6713F2C9B338F0024B802 /* UIView+Extension.swift */,
+				B3A671472C9B3B090024B802 /* UICollectionViewCell+Extension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -190,6 +205,7 @@
 				B3A6712D2C9B2B320024B802 /* LaunchScreen.storyboard in Resources */,
 				B3A6713A2C9B2C060024B802 /* MainViewController.xib in Resources */,
 				B3A6712A2C9B2B320024B802 /* Assets.xcassets in Resources */,
+				B3A671462C9B387E0024B802 /* MainCollectionViewCell.xib in Resources */,
 				B3A671422C9B344C0024B802 /* roboto in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -201,8 +217,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B3A6714A2C9B48630024B802 /* MainViewModel.swift in Sources */,
 				B3A671382C9B2BEF0024B802 /* MainViewController.swift in Sources */,
 				B3A671212C9B2B300024B802 /* AppDelegate.swift in Sources */,
+				B3A671482C9B3B090024B802 /* UICollectionViewCell+Extension.swift in Sources */,
+				B3A671452C9B387E0024B802 /* MainCollectionViewCell.swift in Sources */,
+				B3A6714C2C9B50310024B802 /* MainCollectionViewModel.swift in Sources */,
 				B3A671402C9B338F0024B802 /* UIView+Extension.swift in Sources */,
 				B3A671232C9B2B300024B802 /* SceneDelegate.swift in Sources */,
 			);

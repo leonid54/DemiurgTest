@@ -8,8 +8,9 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         guard let windowScene = (scene as? UIWindowScene) else { return }
         window = UIWindow(frame: windowScene.coordinateSpace.bounds)
         window?.windowScene = windowScene
-        let initVC = MainViewController()
+        let initVC = MainViewController(viewModel: MainViewModel())
         let navVC = UINavigationController(rootViewController: initVC)
+        navVC.navigationBar.isHidden = true
         window?.rootViewController = navVC
         window?.makeKeyAndVisible()
     }
